@@ -1,0 +1,3 @@
+/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles/targil3.dir
+/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles/edit_cache.dir

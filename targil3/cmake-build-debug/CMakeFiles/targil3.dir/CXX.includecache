@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shira/CLionProjects/targil3/msg_printer.cpp
+cstdio
+-
+iostream
+-
+cstring
+-
+msg_printer.h
+/home/shira/CLionProjects/targil3/msg_printer.h
+
+/home/shira/CLionProjects/targil3/msg_printer.h
+string
+-
+
