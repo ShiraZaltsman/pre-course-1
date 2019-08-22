@@ -6,17 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/shira/CLionProjects/targil3/msg_printer.cpp
-cstdio
--
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/main.cpp
 iostream
 -
-cstring
+unistd.h
 -
+list
+-
+my_time.h
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_time.h
 msg_printer.h
-/home/shira/CLionProjects/targil3/msg_printer.h
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/msg_printer.h
+my_timer.h
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_timer.h
 
-/home/shira/CLionProjects/targil3/msg_printer.h
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/msg_printer.h
 string
 -
+
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_time.h
+iostream
+-
+
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_timer.h
+my_time.h
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_time.h
+msg_printer.h
+/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/msg_printer.h
 

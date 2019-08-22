@@ -4,7 +4,5 @@
 
 #include "my_timer.h"
 
-Timer::Timer(Time tar, MsgPrinter *p):clock(Time(0)) ,target(tar) {
-    this->pprinter=p;
-}
+Timer::Timer(Time tar, MsgPrinter *p):target(tar),clock(Time(0)) ,pprinter(p) {}
 

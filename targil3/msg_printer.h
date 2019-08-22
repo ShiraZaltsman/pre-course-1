@@ -7,31 +7,44 @@
 
 #include <string>
 
-using namespace std;
 class MsgPrinter{
-protected:
-    const string message;
-
 public:
-    explicit MsgPrinter(string m);
-    ~MsgPrinter();
+    explicit MsgPrinter(std::string m);
+    virtual ~MsgPrinter();
     virtual void print();
+
+protected:
+    const std::string message;
 };
 
-class MsgPrinterSurrounding:public MsgPrinter{
+class MsgPrinterSurrounding: public MsgPrinter{
 private:
     char* before;
     char* after;
 
 public:
-    MsgPrinterSurrounding(string str);
-    MsgPrinterSurrounding(string str, const char* before_msg,  const char* after_msg);
+    MsgPrinterSurrounding(std::string str);
+    MsgPrinterSurrounding(std::string str, const char* before_msg,  const char* after_msg);
     ~MsgPrinterSurrounding();
     void print();
 
 protected:
     virtual void print_before();
+    virtual void print_after();
+};
+
+class MsgPrinterMultipleSurrounding: public MsgPrinterSurrounding{
+public:
+    MsgPrinterMultipleSurrounding(std::string str, const char* before_msg,
+                                    const char* after_msg, unsigned char times_=2);
+    ~MsgPrinterMultipleSurrounding();
+    unsigned char get_times() const;
+    void set_times(unsigned char times);
+    void print_before();
     void print_after();
+
+private:
+    unsigned char times;
 };
 
 #endif //TARGIL3_MSG_PRINTER_H

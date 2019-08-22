@@ -1,4 +1,4 @@
-# Install script for directory: /home/shira/CLionProjects/targil3
+# Install script for directory: /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shira/CLionProjects/targil3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

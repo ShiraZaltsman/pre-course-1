@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shira/CLionProjects/targil3/main.cpp" "/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles/targil3.dir/main.cpp.o"
-  "/home/shira/CLionProjects/targil3/msg_printer.cpp" "/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles/targil3.dir/msg_printer.cpp.o"
-  "/home/shira/CLionProjects/targil3/my_time.cpp" "/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles/targil3.dir/my_time.cpp.o"
-  "/home/shira/CLionProjects/targil3/my_timer.cpp" "/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles/targil3.dir/my_timer.cpp.o"
+  "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/main.cpp" "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles/targil3.dir/main.cpp.o"
+  "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/msg_printer.cpp" "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles/targil3.dir/msg_printer.cpp.o"
+  "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_time.cpp" "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles/targil3.dir/my_time.cpp.o"
+  "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_timer.cpp" "/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles/targil3.dir/my_timer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

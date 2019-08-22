@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shira/CLionProjects/targil3
+CMAKE_SOURCE_DIR = /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shira/CLionProjects/targil3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/targil3.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/targil3.dir/flags.make
 
 CMakeFiles/targil3.dir/main.cpp.o: CMakeFiles/targil3.dir/flags.make
 CMakeFiles/targil3.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/targil3.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/targil3.dir/main.cpp.o -c /home/shira/CLionProjects/targil3/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/targil3.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/targil3.dir/main.cpp.o -c /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/main.cpp
 
 CMakeFiles/targil3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/targil3.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shira/CLionProjects/targil3/main.cpp > CMakeFiles/targil3.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/main.cpp > CMakeFiles/targil3.dir/main.cpp.i
 
 CMakeFiles/targil3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/targil3.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shira/CLionProjects/targil3/main.cpp -o CMakeFiles/targil3.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/main.cpp -o CMakeFiles/targil3.dir/main.cpp.s
 
 CMakeFiles/targil3.dir/my_time.cpp.o: CMakeFiles/targil3.dir/flags.make
 CMakeFiles/targil3.dir/my_time.cpp.o: ../my_time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/targil3.dir/my_time.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/targil3.dir/my_time.cpp.o -c /home/shira/CLionProjects/targil3/my_time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/targil3.dir/my_time.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/targil3.dir/my_time.cpp.o -c /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_time.cpp
 
 CMakeFiles/targil3.dir/my_time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/targil3.dir/my_time.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shira/CLionProjects/targil3/my_time.cpp > CMakeFiles/targil3.dir/my_time.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_time.cpp > CMakeFiles/targil3.dir/my_time.cpp.i
 
 CMakeFiles/targil3.dir/my_time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/targil3.dir/my_time.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shira/CLionProjects/targil3/my_time.cpp -o CMakeFiles/targil3.dir/my_time.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_time.cpp -o CMakeFiles/targil3.dir/my_time.cpp.s
 
 CMakeFiles/targil3.dir/msg_printer.cpp.o: CMakeFiles/targil3.dir/flags.make
 CMakeFiles/targil3.dir/msg_printer.cpp.o: ../msg_printer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/targil3.dir/msg_printer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/targil3.dir/msg_printer.cpp.o -c /home/shira/CLionProjects/targil3/msg_printer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/targil3.dir/msg_printer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/targil3.dir/msg_printer.cpp.o -c /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/msg_printer.cpp
 
 CMakeFiles/targil3.dir/msg_printer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/targil3.dir/msg_printer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shira/CLionProjects/targil3/msg_printer.cpp > CMakeFiles/targil3.dir/msg_printer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/msg_printer.cpp > CMakeFiles/targil3.dir/msg_printer.cpp.i
 
 CMakeFiles/targil3.dir/msg_printer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/targil3.dir/msg_printer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shira/CLionProjects/targil3/msg_printer.cpp -o CMakeFiles/targil3.dir/msg_printer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/msg_printer.cpp -o CMakeFiles/targil3.dir/msg_printer.cpp.s
 
 CMakeFiles/targil3.dir/my_timer.cpp.o: CMakeFiles/targil3.dir/flags.make
 CMakeFiles/targil3.dir/my_timer.cpp.o: ../my_timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/targil3.dir/my_timer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/targil3.dir/my_timer.cpp.o -c /home/shira/CLionProjects/targil3/my_timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/targil3.dir/my_timer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/targil3.dir/my_timer.cpp.o -c /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_timer.cpp
 
 CMakeFiles/targil3.dir/my_timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/targil3.dir/my_timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shira/CLionProjects/targil3/my_timer.cpp > CMakeFiles/targil3.dir/my_timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_timer.cpp > CMakeFiles/targil3.dir/my_timer.cpp.i
 
 CMakeFiles/targil3.dir/my_timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/targil3.dir/my_timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shira/CLionProjects/targil3/my_timer.cpp -o CMakeFiles/targil3.dir/my_timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/my_timer.cpp -o CMakeFiles/targil3.dir/my_timer.cpp.s
 
 # Object files for target targil3
 targil3_OBJECTS = \
@@ -125,7 +125,7 @@ targil3: CMakeFiles/targil3.dir/msg_printer.cpp.o
 targil3: CMakeFiles/targil3.dir/my_timer.cpp.o
 targil3: CMakeFiles/targil3.dir/build.make
 targil3: CMakeFiles/targil3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable targil3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable targil3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/targil3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/targil3.dir/clean:
 .PHONY : CMakeFiles/targil3.dir/clean
 
 CMakeFiles/targil3.dir/depend:
-	cd /home/shira/CLionProjects/targil3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shira/CLionProjects/targil3 /home/shira/CLionProjects/targil3 /home/shira/CLionProjects/targil3/cmake-build-debug /home/shira/CLionProjects/targil3/cmake-build-debug /home/shira/CLionProjects/targil3/cmake-build-debug/CMakeFiles/targil3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3 /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3 /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug /home/shira/pre-course-1-cpp-ShiraZaltsman/targil3/cmake-build-debug/CMakeFiles/targil3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/targil3.dir/depend
 

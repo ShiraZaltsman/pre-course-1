@@ -9,23 +9,21 @@
 #include "msg_printer.h"
 
 class Timer{
+public:
+    Timer(Time tar, MsgPrinter *p);
+    void tick();
+    void tick(unsigned int t);
+    void tick (std::string str, unsigned int i=0);
+
 private:
     Time target;
     Time clock;
     MsgPrinter* pprinter;
 
-public:
-    Timer(Time tar, MsgPrinter *p);
-
-    void tick();
-    void tick(long t);
-    void tick (string str, int i=0);
-
-    inline int tic(){ return 90;}
 };
 
 inline void Timer::tick() {
-    int sec=clock.get_seconds();
+    const int sec=clock.get_seconds();
     clock=Time(sec+1);
     if(clock>=target){
         pprinter->print();
@@ -33,7 +31,7 @@ inline void Timer::tick() {
 
 }
 
-inline void Timer::tick(long t) {
+inline void Timer::tick(unsigned int t) {
     int sec=clock.get_seconds();
     clock=Time(sec+t);
     if(clock>=target){
@@ -41,7 +39,7 @@ inline void Timer::tick(long t) {
     }
 }
 
-inline void Timer::tick(string str,int i) {
+inline void Timer::tick(std::string str, unsigned int i) {
     int sec=clock.get_seconds();
     if (str=="M" || str=="m" || str=="Min" || str=="min" || str=="Minute" || str=="minute"){
         clock=Time(sec+60*i);
@@ -50,7 +48,7 @@ inline void Timer::tick(string str,int i) {
         clock=Time(sec+3600*i);
     }
     else{
-        throw invalid_argument (str);
+        throw std::invalid_argument (str);
     }
     if(clock>=target){
         pprinter->print();
